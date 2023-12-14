@@ -5,7 +5,7 @@ from sklearn.preprocessing import Binarizer
 from sklearn.svm import LinearSVR
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor, ExtraTreeRegressor
 import sys
-sys.path.append('/home/cjw/cmlcompiler/python')
+sys.path.append('/home/cjw/Computer-architecture_hw/python')
 from cmlcompiler.algorithms.linear import logistic_regression
 from cmlcompiler.model import build_model
 import time
