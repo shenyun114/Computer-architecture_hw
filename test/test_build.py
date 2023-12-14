@@ -4,7 +4,7 @@ from tvm import te
 from tvm.contrib import graph_runtime
 from tvm import relay
 import sys
-sys.path.append('/home/cjw/cmlcompiler/python')
+sys.path.append('/home/cjw/Computer-architecture_hw/python')
 from cmlcompiler.algorithms.linear import logistic_regression,linear_regression
 
 def build_model(algo, target, dev, dtype="float32", *param_list):
